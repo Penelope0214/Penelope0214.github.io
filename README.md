@@ -1,15 +1,20 @@
 # My Portfolio Website
+
+
+
+Welcome to my portfolio website! This website showcases my projects, skills, and achievements.
+
 <!-- Google tag (gtag.js) -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-HDVFCZGTVE"></script>
+<!--
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HDVFCZGTVE"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-HDVFCZGTVE');
-</script> -->
-
-Welcome to my portfolio website! This website showcases my projects, skills, and achievements.
+</script>
+-->
 
 ## Table of Contents
 
