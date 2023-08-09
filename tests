@@ -1,0 +1,29 @@
+const { chromium } = require('playwright');
+
+describe('Portfolio Website', () => {
+  let browser;
+  let page;
+
+  beforeAll(async () => {
+    browser = await chromium.launch();
+  });
+
+  afterAll(async () => {
+    await browser.close();
+  });
+
+  beforeEach(async () => {
+    page = await browser.newPage();
+  });
+
+  afterEach(async () => {
+    await page.close();
+  });
+
+  it('should load the homepage', async () => {
+    await page.goto('https://penelope0214.github.io/'); // Replace with your portfolio website URL
+    const title = await page.title();
+
+    expect(title).toBe('penelope0214.github.io'); // Replace with the expected title of your portfolio website
+  });
+});
