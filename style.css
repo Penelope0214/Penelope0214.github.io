@@ -10,6 +10,7 @@ body {
   background-color: #f0f0f0;
 }
 
+{
 width: 775px;
 height: 866.314px;
 flex-shrink: 0;
@@ -17,7 +18,7 @@ Style
 background: url(<IMG_8099 1.jpg>), lightgray 50% / cover no-repeat;
 
 /* Style the header */
-
+}
 h1 {
   font-size: 28px;
   padding: 20px;
