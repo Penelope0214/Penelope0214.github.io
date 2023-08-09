@@ -10,15 +10,7 @@ body {
   background-color: #f0f0f0;
 }
 
-{
-width: 775px;
-height: 866.314px;
-flex-shrink: 0;
-Style
-background: url(<IMG_8099 1.jpg>), lightgray 50% / cover no-repeat;
-
 /* Style the header */
-}
 h1 {
   font-size: 28px;
   padding: 20px;
@@ -67,15 +59,13 @@ p {
   margin-bottom: 15px;
 }
 
-/* Apply the background gradient */
-.background-gradient {
-  background: linear-gradient(
-    180deg,
-    rgba(0, 89, 242, 0.90) 13.50%,
-    rgba(0, 89, 242, 0.00) 42.66%,
-    rgba(30, 133, 226, 0.25) 59.85%,
-    rgba(137, 249, 198, 0.90) 95.79%
-  );
-  padding: 20px;
-  color: #fff;
+/* Image styling */
+.corner-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 775px;
+  height: 866.314px;
+  flex-shrink: 0;
 }
+
