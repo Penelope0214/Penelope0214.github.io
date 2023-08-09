@@ -1,7 +1,66 @@
+/* Reset default margin and padding for all elements */
+body, h1, h2, h3, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+}
 
-.element-class {
-  width: 2000px;
-  height: 4400px;
+/* Apply a background color and some basic styles to the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Style the header */
+h1 {
+  font-size: 28px;
+  padding: 20px;
+  text-align: center;
+  color: #0059F2;
+}
+
+/* Style the main content area */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the table of contents */
+ul {
+  list-style: none;
+  margin-top: 20px;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Style the links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style the acknowledgments section */
+h2 {
+  margin-top: 30px;
+}
+
+/* Add some spacing to paragraphs */
+p {
+  margin-bottom: 15px;
+}
+
+/* Apply the background gradient */
+.container {
   background: linear-gradient(
     180deg,
     rgba(0, 89, 242, 0.90) 13.50%,
@@ -9,16 +68,6 @@
     rgba(30, 133, 226, 0.25) 59.85%,
     rgba(137, 249, 198, 0.90) 95.79%
   );
-  padding: 20px; /* Add padding for spacing within the element */
-  border-radius: 10px; /* Add rounded corners */
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-  color: #fff; /* Text color */
-  font-size: 18px; /* Font size for text */
-  font-family: Arial, sans-serif; /* Font family */
-}
-
-/* Add hover effect */
-.element-class:hover {
-  transform: scale(1.05); /* Scale up slightly on hover */
-  transition: transform 0.3s ease-in-out; /* Add smooth transition */
+  padding: 20px;
+  color: #fff;
 }
