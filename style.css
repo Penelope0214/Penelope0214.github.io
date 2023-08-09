@@ -18,7 +18,15 @@ h1 {
   color: #0059F2;
 }
 
-
+/* Style the main content area */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
 
 /* Style the table of contents */
 ul {
@@ -52,7 +60,7 @@ p {
 }
 
 /* Apply the background gradient */
-.container {
+.background-gradient {
   background: linear-gradient(
     180deg,
     rgba(0, 89, 242, 0.90) 13.50%,
