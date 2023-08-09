@@ -4,10 +4,10 @@ body, h1, h2, h3, p, ul, li, a {
   padding: 0;
 }
 
-/* Apply a background color and some basic styles to the body */
+/* Apply a background gradient and some basic styles to the body */
 body {
-  font-family: "Outfit", Arial, sans-serif ;
-  background-color: #f0f0f0;
+  font-family: "Outfit", Arial, sans-serif;
+  background: linear-gradient(to bottom, #f0f0f0, #c0c0c0); /* Use your gradient colors */
 }
 
 /* Style the header */
@@ -19,9 +19,16 @@ h1 {
 }
 
 /* Style the main content area */
+.wrapper {
+  background: linear-gradient(to bottom, #f0f0f0, #c0c0c0); /* Use the same gradient colors */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .container {
   max-width: 800px;
-  margin: 0 auto;
+  margin: 20px; /* Adjust margin as needed */
   padding: 20px;
   background-color: #fff;
   border-radius: 10px;
@@ -61,11 +68,6 @@ p {
 
 /* Image styling */
 .corner-image {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 400px;
-  height: 866.314px;
-  flex-shrink: 0;
+  width: 400px; /* Adjust this width */
+  height: auto; /* Maintain aspect ratio */
 }
-
