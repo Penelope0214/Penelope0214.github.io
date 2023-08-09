@@ -1,4 +1,5 @@
 /* Reset default margin and padding for all elements */
+/* Reset default margin and padding for all elements */
 body, h1, h2, h3, p, ul, li, a {
   margin: 0;
   padding: 0;
@@ -8,6 +9,11 @@ body, h1, h2, h3, p, ul, li, a {
 body {
   font-family: "Outfit", Arial, sans-serif;
   background: linear-gradient(to bottom, #f0f0f0, #c0c0c0); /* Use your gradient colors */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 /* Style the header */
@@ -19,13 +25,6 @@ h1 {
 }
 
 /* Style the main content area */
-.wrapper {
-  background: linear-gradient(to bottom, #f0f0f0, #c0c0c0); /* Use the same gradient colors */
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-}
-
 .container {
   max-width: 800px;
   margin: 20px; /* Adjust margin as needed */
