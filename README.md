@@ -55,4 +55,4 @@ I would like to express my gratitude to [mention anyone you want to acknowledge]
 
 ---
 
-**Note:** This README is just an example. Be sure to customize it with your actual information, project details, and other relevant content.
+
