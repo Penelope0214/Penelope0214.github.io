@@ -1,0 +1,24 @@
+
+.element-class {
+  width: 2000px;
+  height: 4400px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 89, 242, 0.90) 13.50%,
+    rgba(0, 89, 242, 0.00) 42.66%,
+    rgba(30, 133, 226, 0.25) 59.85%,
+    rgba(137, 249, 198, 0.90) 95.79%
+  );
+  padding: 20px; /* Add padding for spacing within the element */
+  border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  color: #fff; /* Text color */
+  font-size: 18px; /* Font size for text */
+  font-family: Arial, sans-serif; /* Font family */
+}
+
+/* Add hover effect */
+.element-class:hover {
+  transform: scale(1.05); /* Scale up slightly on hover */
+  transition: transform 0.3s ease-in-out; /* Add smooth transition */
+}
