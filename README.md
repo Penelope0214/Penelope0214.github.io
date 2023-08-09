@@ -61,7 +61,8 @@ I would like to express my gratitude to [mention anyone you want to acknowledge]
 Below are the steps to get your plugin running. You can also find instructions at:
 
 
-  ### https://www.figma.com/plugin-docs/plugin-quickstart-guide/
+ <!-- Google tag (gtag.js) -->
+<!-- ### https://www.figma.com/plugin-docs/plugin-quickstart-guide/
 
 This plugin template uses Typescript and NPM, two standard tools in creating JavaScript applications.
 
@@ -98,4 +99,4 @@ We recommend writing TypeScript code using Visual Studio code:
     then select "npm: watch". You will have to do this again every time
     you reopen Visual Studio Code.
 
-That's it! Visual Studio Code will regenerate the JavaScript file every time you save. 
+That's it! Visual Studio Code will regenerate the JavaScript file every time you save. <!-- 
