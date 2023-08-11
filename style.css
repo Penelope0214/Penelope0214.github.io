@@ -4,7 +4,68 @@ body, h1, h2, h3, p, ul, li {
   padding: 0;
 }
 
+/* Apply general styling */* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
 /* Apply general styling */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Center the page content and give it a semi-round border */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  background: linear-gradient(180deg, rgba(0, 89, 242, 0.9) 13.5%, rgba(0, 89, 242, 0) 42.66%, rgba(30, 133, 226, 0.249303) 59.85%, rgba(137, 249, 198, 0.9) 95.79%);
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Style headings */
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #000; /* Set font color to black */
+}
+
+h2 {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Style links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Corner image */
+.corner-image {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  right: -50px;
+  top: -50px;
+}
+
 body {
   font-family: Arial, sans-serif;
   color: #333;
