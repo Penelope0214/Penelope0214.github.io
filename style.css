@@ -1,93 +1,64 @@
-/* styles.css */
-
 /* Reset some default styles */
-body, h1, h2, h3, p, ul, li, a {
+body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
-  font-size: 100%;
+}
+
+/* Apply general styling */
+body {
   font-family: Arial, sans-serif;
-  text-decoration: none;
-  list-style: none;
-  color: inherit;
+  color: #333;
 }
 
-/* Set a background gradient */
-.background-gradient {
-  background: linear-gradient(to bottom, #f7f7f7, #e5e5e5);
-}
-
-/* Center the content */
+/* Center the page content and give it a semi-round border */
 .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: #f4f4f4;
 }
 
 .container {
+  position: relative;
   width: 80%;
-  max-width: 1200px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(180deg, rgba(0, 89, 242, 0.9) 13.5%, rgba(0, 89, 242, 0) 42.66%, rgba(30, 133, 226, 0.249303) 59.85%, rgba(137, 249, 198, 0.9) 95.79%);
+  padding: 40px;
+  border-radius: 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Style the heading */
+/* Style headings */
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
 h2 {
-  font-size: 1.5rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  font-size: 18px;
+  margin: 20px 0;
 }
 
-/* Style the links in the table of contents */
-ul li a {
-  color: #333;
-  transition: color 0.3s ease;
+h3 {
+  font-size: 16px;
+  margin: 10px 0;
 }
 
-ul li a:hover {
+/* Style links */
+a {
   color: #007bff;
+  text-decoration: none;
 }
 
-/* Add space between sections */
-.content > *:not(.corner-image) {
-  margin-bottom: 1.5rem;
-}
+/* Add more styles for other elements as needed */
 
-/* Style the corner image */
+/* Corner image */
 .corner-image {
   position: absolute;
-  top: 0;
-  right: 0;
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  height: 150px;
+  right: -50px;
+  top: -50px;
 }
 
-/* Style the skills list */
-ul li {
-  margin-bottom: 0.5rem;
-}
-
-/* Style the contact links */
-.contact-links a {
-  display: inline-block;
-  margin-right: 1rem;
-  color: #333;
-}
-
-.contact-links a:last-child {
-  margin-right: 0;
-}
-
-.contact-links a:hover {
-  color: #007bff;
-}
+/* Add more styles for other elements as needed */
